@@ -157,29 +157,29 @@ warning: You appear to have cloned an empty repository.
 **Step 6 - Create the README.md and push the modifications**
 
 * Navigate to this new directory. Tips
+````
 
-``
 root@896cf839cf9a:/# cd alx-zero_day/
 root@896cf839cf9a:/alx-zero_day#
 
-``
+````
 * Create the file README.md with the content My first readme. Tips
 
-``
+````
 root@896cf839cf9a:/alx-zero_day# echo 'My first readme' > README.md                                                                 
 root@896cf839cf9a:/alx-zero_day# cat README.md                                                                                      
 My first readme   
-
-``
+````
 * Update your git identity
 
-``
+````
 root@896cf839cf9a:/alx-pre_course# git config --global user.email "you@example.com"
 root@896cf839cf9a:/alx-pre_course# git config --global user.name "Your Name"
 
-``
+````
 * Add this new file to git, commit the change with this message “My first commit” and push to the remote server / origin
-``
+
+````
 root@896cf839cf9a:/alx-zero_day# git add .
 root@896cf839cf9a:/alx-zero_day# git commit -m 'My first commit'
 [master (root-commit) 98eef93] My first commit
@@ -192,7 +192,8 @@ Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)                                                                                                 
 To https://github.com/{YOUR_USERNAME}/alx-zero_day.git                                                                                       
  * [new branch]      master -> master              
-``
+
+````
 
 Good job!
 
